@@ -37,7 +37,7 @@
 		
 		<!-- Mediplus CSS -->
         <link rel="stylesheet" href="<?= get_template_directory_uri(); ?>/assets/css/normalize.css">
-        <link rel="stylesheet" href="<?= get_template_directory_uri(); ?>/assets/style.css">
+        <link rel="stylesheet" href="<?= get_template_directory_uri(); ?>/assets/css/style.css">
         <link rel="stylesheet" href="<?= get_template_directory_uri(); ?>/assets/css/responsive.css">
 
   <?php wp_head(); ?>

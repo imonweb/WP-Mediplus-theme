@@ -89,7 +89,7 @@
 		
 		<div class="wp-version">
         <a href="../../downloads/mediplus-medical-and-doctor-wordpress-theme/index.html" target="_blank" rel="nofollow">
-        <div class="image"><img src="img/wp-icon.png"></div>Looking for WP version?
+        <div class="image"><img src="<?= get_template_directory_uri(); ?>/assets/img/wp-icon.png"></div>Looking for WP version?
         </a>
         </div>
 		
