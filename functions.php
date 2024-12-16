@@ -20,3 +20,8 @@ function mediplus_script_enqueue() {
   /*===  Enqueue Scripts ===*/
 }
 add_action('wp_enqueue_scripts', 'mediplus_script_enqueue');
+
+/*  post-thumbnails */
+if(function_exists('add_theme_support')){
+  add_theme_support( 'post-thumbnails' );
+}
